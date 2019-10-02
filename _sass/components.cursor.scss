@@ -1,0 +1,16 @@
+$cursor-size: 40px;
+
+.cursor {
+    visibility: hidden;
+    position: fixed;
+    z-index: 999999;
+    backface-visibility: hidden;
+    pointer-events: none;
+
+    width: $cursor-size;
+    height: $cursor-size;
+    top: -$cursor-size / 2;
+    left: -$cursor-size / 2;
+    border: 1px solid $light;
+    border-radius: 50%;
+}

@@ -1,0 +1,48 @@
+html,
+body {
+    height: 100%;
+    background-color: $brand;
+    font-family: $sans;
+    font-size: 16px;
+    font-style: normal;
+    font-kerning: normal;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    line-height: $lh-copy;
+    color: $light;
+}
+
+
+a,
+a:hover,
+a:active,
+a:focus,
+a:visited {
+    text-decoration: none;
+    outline: none;
+    transition: $fade-link;
+}
+
+a {
+    color: inherit;
+}
+
+button,
+button:hover,
+button:active,
+button:focus,
+button:visited,
+input[type='button'],
+input[type='submit'] {
+    outline: none;
+    transition: $fade-all;
+}
+
+hr {
+    border: 0;
+    clear: both;
+    display: block;
+    width: 100%;
+    background-color: $brand;
+    height: 1px;
+}

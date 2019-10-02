@@ -1,0 +1,25 @@
+host: 0.0.0.0
+
+sass:
+  style: compressed
+
+plugins:
+  - jekyll-minifier
+  - jekyll-autoprefixer
+  
+jekyll-minifier:
+  compress_css: false
+  uglifier_args:
+    harmony: true
+
+autoprefixer:
+  only_production: true
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+      og:
+        img: /assets/img/og.png
+        description: Marloes te Riele

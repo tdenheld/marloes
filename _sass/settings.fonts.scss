@@ -1,0 +1,31 @@
+/*-------------------
+        Fonts
+--------------------*/
+
+@charset "UTF-8";
+
+// sans
+@font-face {
+    font-family: 'tw-sans';
+    font-display: auto;
+	src: url('/assets/fonts/sans-light.woff2') format('woff2');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+    font-family: 'tw-sans';
+    font-display: auto;
+	src: url('/assets/fonts/sans-medium.woff2') format('woff2');
+	font-weight: 500;
+	font-style: bold;
+}
+
+// serif
+@font-face {
+    font-family: 'tw-serif';
+    font-display: auto;
+	src: url('/assets/fonts/serif.woff2') format('woff2');
+	font-weight: 500;
+	font-style: normal;
+}

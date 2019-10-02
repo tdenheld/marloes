@@ -1,0 +1,81 @@
+/*-------------------
+      Animation
+--------------------*/
+
+$ease:						cubic-bezier(0.700, 0.270, 0.270, 1);
+$ease-expo:			        cubic-bezier(1.000, 0.000, 0.000, 1);
+$ease-out:			        cubic-bezier(0.200, 0.900, 0.400, 1);
+$fade-all: 					all 300ms $ease;
+$fade-link:                 all 200ms $ease;
+
+
+
+
+/*-------------------
+	   Spacers
+--------------------*/
+
+$grid-gutter-width: 24px;
+
+$triple-gutter:				$grid-gutter-width * 3;
+$double-gutter:				$grid-gutter-width * 2;
+$one-half-gutter:			$grid-gutter-width * 1.5;
+
+$gutter:					$grid-gutter-width;
+$half-gutter:				$grid-gutter-width / 2;
+$quarter-gutter:			$grid-gutter-width / 4;
+
+
+
+
+/*-------------------
+    Media queries
+--------------------*/
+
+$xs: 480px;
+$sm: 768px;
+$md: 912px;
+$lg: 1280 + $double-gutter * 2;
+$xl: 1440px;
+
+
+
+
+/*-------------------
+        Fonts
+--------------------*/
+
+$sans: 'tw-sans', helvetica, arial, sans-serif;
+$mono: 'Courier New', courier;
+$serif: 'tw-serif', 'Palatino', Georgia, Times, serif;
+
+$lh-copy: 1.4;
+$lh-title: 1.2;
+$lh-solid: 1;
+
+
+
+
+/*-------------------
+        Colors
+--------------------*/
+
+$black: #000;
+$white: #fff;
+
+$brand: #00A4AB;
+$brand-dark: mix($black, $brand, 15%);
+
+$light:      mix($white, $brand, 95%);
+$dark:       mix($black, $brand, 95%);
+
+$grey:       mix($white, $dark, 10%);
+$grey-1:     mix($white, $dark, 20%);
+$grey-2:     mix($white, $dark, 30%);
+$grey-3:     mix($white, $dark, 40%);
+$grey-4:     mix($white, $dark, 50%);
+$grey-5:     mix($white, $dark, 60%);
+$grey-6:     mix($white, $dark, 70%);
+$grey-7:     mix($white, $dark, 80%);
+$grey-8:     mix($white, $dark, 90%);
+$grey-9:     mix($white, $dark, 95%);
