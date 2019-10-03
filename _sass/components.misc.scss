@@ -23,9 +23,14 @@
 .references__link {
     text-transform: uppercase;
     font-size: toRem(12px);
-    box-shadow: inset 0 -1px 0 $light;
+    box-shadow: inset 0 -1px 0 rgba($light, 0.6);
+    transition: $fade-all;
     
     &:not(:first-child) {
         margin-left: $gutter;
+    }
+
+    &:hover {
+        box-shadow: inset 0 -1px 0 $light;
     }
 }
