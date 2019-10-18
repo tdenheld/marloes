@@ -1,5 +1,5 @@
 ---
-title: Fort van de Verbeelding
+title: Fort van de Verbeel&shy;ding
 type: Persbericht
 description: Het Grijze Koppen Orkest Wint!
 ---
