@@ -9,7 +9,7 @@
     font-family: 'tw-sans';
     font-display: auto;
 	src: url('/assets/fonts/sans-light.woff2') format('woff2');
-	font-weight: 300;
+	font-weight: normal;
 	font-style: normal;
 }
 
@@ -17,8 +17,8 @@
     font-family: 'tw-sans';
     font-display: auto;
 	src: url('/assets/fonts/sans-medium.woff2') format('woff2');
-	font-weight: 500;
-	font-style: bold;
+	font-weight: bold;
+	font-style: normal;
 }
 
 // serif
@@ -26,6 +26,56 @@
     font-family: 'tw-serif';
     font-display: auto;
 	src: url('/assets/fonts/serif.woff2') format('woff2');
-	font-weight: 900;
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+    font-family: 'tw-serif';
+    font-display: auto;
+	src: url('/assets/fonts/serif-italic.woff2') format('woff2');
+	font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'tw-serif';
+    font-display: auto;
+	src: url('/assets/fonts/serif-bold.woff2') format('woff2');
+	font-weight: 700;
 	font-style: bold;
+}
+
+@font-face {
+    font-family: 'tw-serif';
+    font-display: auto;
+	src: url('/assets/fonts/serif-bolditalic.woff2') format('woff2');
+	font-weight: 700;
+    font-style: italic;
+}
+
+// body
+@font-face {
+    font-family: 'tw-body';
+    font-display: auto;
+	src: url('/assets/fonts/body.woff2') format('woff2');
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+    font-family: 'tw-body';
+    font-display: auto;
+	src: url('/assets/fonts/body-italic.woff2') format('woff2');
+	font-weight: 400;
+	font-style: italic;
+}
+
+// mono
+@font-face {
+    font-family: 'tw-mono';
+    font-display: auto;
+	src: url('/assets/fonts/mono.woff2') format('woff2');
+	font-weight: 400;
+	font-style: normal;
 }

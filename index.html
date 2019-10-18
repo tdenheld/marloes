@@ -3,16 +3,24 @@ index: true
 ---
 
 <section class="pa-6 pa-16-sm">
-    <header class="mb-8 mb-16-sm">
-        <h1 class="heading mb-6 mb-12-sm">Marloes te Riele</h1>
+    <header class="mb-6 mb-10-sm">
+        <h1 class="heading mb-6 mb-12-sm">Marloes <i>te</i> Riele</h1>
         <p class="payoff">
             Beschikbaar voor persberichten, nieuwsbrieven en interviews in de sectoren:
             <b>cultuur / zorg / welzijn</b>
         </p>
     </header>
     <div>
-        <a class="reference" href="mailto:marloesja@gmail.com" target="_blank" rel="noreferrer">Mail</a>
-        <a class="reference" href="https://www.linkedin.com/in/marloesteriele/" target="_blank" rel="noreferrer">Linkedin</a>
-        <a class="reference" href="https://www.instagram.com/marloes_te_riele" target="_blank" rel="noreferrer">Instagram</a>
+        <a class="link reference" href="mailto:marloesja@gmail.com" target="_blank" rel="noreferrer">Mail</a>
+        <a class="link reference" href="https://www.linkedin.com/in/marloesteriele/" target="_blank" rel="noreferrer">Linkedin</a>
+        <a class="link reference" href="https://www.instagram.com/marloes_te_riele" target="_blank" rel="noreferrer">Instagram</a>
     </div>
+</section>
+
+<hr>
+
+<section class="pa-6 pa-16-sm">
+    {% for entry in site.posts %}
+    {% include tile.html %}
+    {% endfor %}
 </section>

@@ -21,6 +21,11 @@ defaults:
     values:
       layout: "default"
       title: Marloes te Riele
-      og:
-        img: /assets/img/og.png
-        description: Verstand van verhalen én in het voetlicht brengen, specialist in pers en publiciteit, ervaring met de organisatie van evenementen, moeder, verbinder, zoekt graag de hete brij op en is bloednieuwsgierig.
+      img: /assets/img/og.png
+      description: Verstand van verhalen én in het voetlicht brengen, specialist in pers en publiciteit, ervaring met de organisatie van evenementen, moeder, verbinder, zoekt graag de hete brij op en is bloednieuwsgierig.
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      permalink: /portfolio/:title

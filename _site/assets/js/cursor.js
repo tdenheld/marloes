@@ -111,7 +111,7 @@ function cursor() {
 
         // execute functions
         tracking('#js-cursor', 0.9, true);
-        hover('#js-cursor', 80);
+        hover('#js-cursor', 100);
 
         tracking('#js-cursor-tile', 1.7, false);
         followingImgHover('.js-tile', '#js-cursor-tile', '.js-cursor-img');

@@ -1,0 +1,30 @@
+---
+layout: default
+---
+
+<section class="pa-6 pa-16-sm">
+    <div class="mb-4">
+        <a href="/" class="link reference">Terug naar de beginpagina</a>
+    </div>
+    <header class="mb-8 mb-12-sm">
+        <h1 class="heading mb-6 mb-12-sm">{{ page.title }}</h1>
+        <p class="payoff">
+            {{ page.description }}
+        </p>
+    </header>
+    <div class="rich-text mxw-700">
+        {{ content }}
+    </div>
+</section>
+
+<hr>
+
+<section class="pa-6 pa-16-sm">
+    {% capture i %}{{ page.title }}{% endcapture %}
+    {% for entry in site.posts %}
+    {% if entry.title==i %}
+    {% continue %}
+    {% endif %}
+    {% include tile.html %}
+    {% endfor %}
+</section>

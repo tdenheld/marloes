@@ -11,6 +11,6 @@ $cursor-size: 40px;
     height: $cursor-size;
     top: -$cursor-size / 2;
     left: -$cursor-size / 2;
-    border: 1px solid $light;
+    border: 1px solid rgba($dark, 0.35);
     border-radius: 50%;
 }

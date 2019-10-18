@@ -1,7 +1,7 @@
 html,
 body {
     height: 100%;
-    background-color: $brand;
+    background-color: $light;
     font-family: $sans;
     font-size: 16px;
     font-weight: 300;
@@ -10,7 +10,7 @@ body {
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
     line-height: $lh-copy;
-    color: $light;
+    color: $dark;
 }
 
 
@@ -44,6 +44,6 @@ hr {
     clear: both;
     display: block;
     width: 100%;
-    background-color: $brand;
+    background-color: rgba($dark, 0.12);
     height: 1px;
 }
