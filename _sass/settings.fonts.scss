@@ -25,7 +25,7 @@
 @font-face {
     font-family: 'tw-serif';
     font-display: auto;
-	src: url('/assets/fonts/serif.woff2') format('woff2');
+	src: url('/assets/fonts/p-regular.woff2') format('woff2');
 	font-weight: 400;
 	font-style: normal;
 }
@@ -33,25 +33,9 @@
 @font-face {
     font-family: 'tw-serif';
     font-display: auto;
-	src: url('/assets/fonts/serif-italic.woff2') format('woff2');
-	font-weight: 400;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: 'tw-serif';
-    font-display: auto;
-	src: url('/assets/fonts/serif-bold.woff2') format('woff2');
+	src: url('/assets/fonts/p-bold.woff2') format('woff2');
 	font-weight: 700;
 	font-style: bold;
-}
-
-@font-face {
-    font-family: 'tw-serif';
-    font-display: auto;
-	src: url('/assets/fonts/serif-bolditalic.woff2') format('woff2');
-	font-weight: 700;
-    font-style: italic;
 }
 
 // body

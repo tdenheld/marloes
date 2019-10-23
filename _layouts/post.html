@@ -3,12 +3,17 @@ layout: default
 ---
 
 <section class="pa-6 pa-16-sm">
-    <div class="mb-4">
-        <a href="/" class="link reference">Terug naar de beginpagina</a>
+    <div class="mb-8">
+        <a href="/" class="link reference f14">← Terug</a>
     </div>
-    <header class="mb-8 mb-12-sm">
-        <h1 class="heading heading--s mb-6 mb-12-sm">{{ page.title }}</h1>
-        <p class="payoff payoff--xl">
+    <header class="mb-8 mb-12-sm mxw-1200">
+        <div class="mb-6 mb-10-sm">
+            <p>Opdrachtgever</p>
+            <h1 class="f24 fw-b mb-4">{{ page.title }}</h1>
+            <p>Type</p>
+            <p class="f24 fw-b">{{ page.type }}</p>
+        </div>
+        <p class="heading heading--s">
             {{ page.description }}
         </p>
     </header>
@@ -20,6 +25,7 @@ layout: default
 <hr>
 
 <section class="pa-6 pa-16-sm">
+    <h2 class="f16 f20-sm uppercase mb-4 mb-8-sm ls-4">Meer werk van Marloes</h2>
     {% capture i %}{{ page.title }}{% endcapture %}
     {% for entry in site.posts %}
     {% if entry.title==i %}

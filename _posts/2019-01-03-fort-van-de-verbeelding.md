@@ -4,7 +4,7 @@ type: Persbericht
 description: Het Grijze Koppen Orkest Wint!
 ---
 
-**Gisteren werd tijdens een spannende bijeenkomst in Tivoli Vredenburg in Utrecht bekend gemaakt dat het Grijze Koppen Orkest (GKO) heeft gewonnen! Ze lieten met 887 stemmen 7 andere finalisten achter zich bij de wedstrijd van het Stimuleringsfonds XL van Rabobank Utrecht. Aan het winnen van de prijs is een bedrag van 15.000 euro gekoppeld.**
+Gisteren werd tijdens een spannende bijeenkomst in Tivoli Vredenburg in Utrecht bekend gemaakt dat het Grijze Koppen Orkest (GKO) heeft gewonnen! Ze lieten met 887 stemmen 7 andere finalisten achter zich bij de wedstrijd van het Stimuleringsfonds XL van Rabobank Utrecht. Aan het winnen van de prijs is een bedrag van 15.000 euro gekoppeld.
 
 Afgelopen 3 weken streed het orkest voor de meeste stemmen van het publiek. Met het gewonnen bedrag wordt gewerkt aan het opzetten en duurzaam maken van 2 nieuwe orkesten in de wijken Zuilen en Overvecht, Utrecht. Als ook de rest van de financiering rondkomt worden dit het 10e en 11e Grijze Koppen Orkest in Nederland. Het orkest is een initiatief van het Utrechtse Fort van de Verbeelding.
 

@@ -25,17 +25,18 @@
 
 .heading {
     font-family: $serif;
-    font-size: calc(20px + 11vw);
-    line-height: 1;
+    font-size: calc(20px + 8vw);
+    font-weight: bold;
+    line-height: 1.2;
 }
 
 .heading--s {
-    font-size: calc(18px + 8vw);
+    font-size: calc(18px + 2vw);
 }
 
 .payoff {
     max-width: 1000px;
-    font-size: calc(16px + 1vw);
+    font-size: calc(16px + 0.8vw);
 }
 
 .payoff--xl {
@@ -69,8 +70,7 @@
 
 .tile__link {
     font-family: $serif;
-    font-size: calc(16px + 2.3vw);
-    font-weight: bold;
+    font-size: calc(16px + 1.6vw);
     transition: all 800ms $ease-out;
     box-shadow: inset 0 -1px 0 rgba($dark, 0.35);
 }

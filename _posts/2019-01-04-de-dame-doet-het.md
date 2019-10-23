@@ -4,8 +4,7 @@ type: Persbericht
 description: 'Ouderen grijpen naar de pen: Zuilen breit een warme deken tegen eenzaamheid'
 ---
 
-Op 7 juni start een uniek initiatief: “Zuilen breit alles aan elkaar.” Op verschillende locaties waar ouderen uit Utrechtse wijken samenkomen, breien ze gezamenlijk aan een enorme lapjesdeken. Op deze manier willen ouderen zelf aandacht voor eenzaamheid vragen. Zodra de dagen korter en donkerder worden, zullen alle lapjes uit de wijken worden verzameld en aan elkaar worden genaaid tot een warme deken. Tijdens een feestelijk moment zal deze deken symbolisch om de schouders van een bijzonder iemand worden geslagen en gepresenteerd. Waarom? Aandacht voor eenzaamheid onder ouderen is meer dan ooit nodig. Alleen wonen, zoals veel ouderen doen, betekent vaak ook eenzaamheid.
-Als klap op de vuurpijl wordt de deken geshowd in de Galgenwaard.
+Op 7 juni start een uniek initiatief: “Zuilen breit alles aan elkaar.” Op verschillende locaties waar ouderen uit Utrechtse wijken samenkomen, breien ze gezamenlijk aan een enorme lapjesdeken. Op deze manier willen ouderen zelf aandacht voor eenzaamheid vragen. Zodra de dagen korter en donkerder worden, zullen alle lapjes uit de wijken worden verzameld en aan elkaar worden genaaid tot een warme deken. Tijdens een feestelijk moment zal deze deken symbolisch om de schouders van een bijzonder iemand worden geslagen en gepresenteerd. Waarom? Aandacht voor eenzaamheid onder ouderen is meer dan ooit nodig. Alleen wonen, zoals veel ouderen doen, betekent vaak ook eenzaamheid. Als klap op de vuurpijl wordt de deken geshowd in de Galgenwaard.
 
 Het initiatief komt voort uit wooncomplex De Dame in Zuilen, die opereren vanuit de slogan: “De Dame Doet Het!”. Wat zoveel betekent als het zegt: alles wordt door ouderen, voor ouderen georganiseerd.
 
