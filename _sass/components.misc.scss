@@ -112,11 +112,15 @@
         font-family: $sans;
     }
 
-    img:not(:last-child) {
-        margin-bottom: $double-gutter;
+    img {
+        border: 1px solid rgba($dark, 0.12);
 
-        @include sm {
-            margin-bottom: 96px;
+        &:not(:last-child) {
+            margin-bottom: $double-gutter;
+
+            @include sm {
+                margin-bottom: 96px;
+            }
         }
     }
 
