@@ -7,12 +7,14 @@ layout: default
         <a href="/" class="link reference f14">← Terug</a>
     </div>
     <header class="mb-8 mb-12-sm mxw-1200">
+        {% unless page.hide-meta %}
         <div class="mb-6 mb-10-sm">
-            <p>Opdrachtgever</p>
-            <h1 class="f24 fw-b mb-4">{{ page.title }}</h1>
-            <p>Type</p>
-            <p class="f24 fw-b">{{ page.type }}</p>
+            <p class="f14 f16-sm">Opdrachtgever</p>
+            <h1 class="f20 f24-sm fw-b mb-4">{{ page.title }}</h1>
+            <p class="f14 f16-sm">Type</p>
+            <p class="f20 f24-sm fw-b">{{ page.type }}</p>
         </div>
+        {% endunless %}
         <p class="heading heading--s">
             {{ page.description }}
         </p>

@@ -1,111 +1,84 @@
-// basic functions
-// ------------------------------------------------------------
-function toggle() {
-    const obj = $('.js-toggle');
-    if (obj[0]) {
-        obj.click(function () {
-            $(this).toggleClass('is-active');
-        });
-    }
+'use strict';
+
+const ß = (node, element) => {
+    const obj = element || document;
+    const qs = obj.querySelectorAll(node);
+    return Array.from(qs);
 }
 
-function radio() {
-    const obj = $('.js-radio');
-    if (obj[0]) {
-        obj.click(function () {
-            obj.removeClass('is-active');
-            $(this).toggleClass('is-active');
-        });
-    }
+const exists = node => {
+    return document.body.contains(document.querySelector(node));
 }
 
-function clearSession() {
-    const obj = $('.js-clear-session');
-    if (obj[0]) {
-        obj.click(function () {
-            sessionStorage.clear();
-        });
-    }
+const isHidden = node => {
+    return window.getComputedStyle(node).display === 'none';
 }
 
-function toggleText() {
-    const obj = $('.js-toggle-text');
-    if (obj[0]) {
-        obj.each(function () {
-            const initTxt = $(this).text();
-            let txt = $(this).attr('toggleTxt');
-            $(this).click(() => {
-                if ($(this).text() === initTxt) {
-                    $(this).text(txt);
-                } else {
-                    $(this).text(initTxt);
-                }
-            });
-        });
-    }
+const valueInArray = (value, array) => {
+    return array.includes(value);
 }
 
-$(function () {
+const checkLocalStorage = (value) => {
+    if (localStorage.getItem(value)) return localStorage.getItem(value).trim();
+}
+
+const removeAllChilds = node => {
+    while (node.firstChild) node.removeChild(node.firstChild);
+}
+
+const toggle = () => {
+    const obj = '.js-toggle';
+    if (!exists(obj)) return;
+    ß(obj).map((el) => el.onclick = () => el.classList.toggle('is-active'));
+}
+
+const scrollToObject = () => {
+    const obj = '.js-scroll-to';
+    //const offset = document.querySelector('.header').offsetHeight + 24;
+    if (!exists(obj)) return;
+
+    ß(obj).map((el) => el.onclick = () => {
+        const target = el.getAttribute('href');
+        if (!exists(target)) return;
+        TweenMax.to(window, .8, {
+            ease: Power3.easeInOut,
+            scrollTo: {
+                y: target,
+                offsetY: offset,
+                autoKill: false,
+            }
+        });
+        return false;
+    });
+}
+
+document.addEventListener('DOMContentLoaded', () => {
     toggle();
-    radio();
-    clearSession();
-    toggleText();
-});
-
-
-
-// body scroll lock
-// ------------------------------------------------------------
-const body = {
-    main: $('.js-main'),
-    scrollPos: window.scrollY,
-    lock() {
-        this.scrollPos = window.scrollY;
-        $('body').css({
-            'position': 'fixed',
-            'top': -this.scrollPos,
-            'overflow-y': 'hidden',
-            'width': '100%',
-            'backface-visibility': 'hidden'
-        });
-        this.main.css({
-            'opacity': '0'
-        });
-    },
-    unlock() {
-        $('body').removeAttr('style');
-        $(window).scrollTop(this.scrollPos);
-        this.main.css({
-            'opacity': '1'
-        });
-    }
-};
-
-
-
-// scroll to
-// ------------------------------------------------------------
-function scrollToObject() {
-    const obj = $('.js-scroll-to');
-    const offset = $('.header').height() + 24;
-
-    if (obj[0]) {
-        obj.click(function () {
-            const element = $(this).attr('href');
-            if ($(element)[0]) {
-                TweenMax.to(window, .8, {
-                    ease: Power3.easeInOut,
-                    scrollTo: {
-                        y: element,
-                        offsetY: offset,
-                        autoKill: false,
-                    }
-                });
-                return false;
-            };
-        });
-    }
-}
-$(function () {
     scrollToObject();
 });
+
+
+// body scroll lock object
+// ------------------------------------------------------------
+const bodyScroll = {
+    body: document.querySelector('body'),
+    main: document.querySelector('main'),
+    scrollPos: 0,
+
+    lock() {
+        this.scrollPos = window.scrollY;
+        this.body.style.position = 'fixed';
+        this.body.style.top = -this.scrollPos + 'px';
+        this.body.style.overflowY = 'hidden';
+        this.body.style.width = '100%';
+        this.body.style.backfaceVisibility = 'hidden';
+    },
+    unlock() {
+        this.body.removeAttribute('style');
+        this.main.removeAttribute('style');
+        window.scrollTo({
+            top: this.scrollPos,
+        });
+    }
+}
+Object.seal(bodyScroll);
