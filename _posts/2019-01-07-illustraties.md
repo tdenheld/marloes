@@ -1,8 +1,8 @@
 ---
+layout: illustration
 title: Diverse illustraties
 type: Illustraties
-description: Diverse illustraties van Marloes te Riele
-hide-meta: true
+description: Diverse illustraties
 ---
 
 ![Huub van der Lubbe](/assets/img/uploads/huub-van-der-lubbe.jpg)

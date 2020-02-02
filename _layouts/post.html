@@ -7,14 +7,12 @@ layout: default
         <a href="/" class="link reference f14">← Terug</a>
     </div>
     <header class="mb-8 mb-12-sm mxw-1200">
-        {% unless page.hide-meta %}
         <div class="mb-6 mb-10-sm">
             <p class="f14 f16-sm">Opdrachtgever</p>
             <p class="f20 f24-sm fw-b mb-4">{{ page.title }}</p>
             <p class="f14 f16-sm">Type</p>
             <p class="f20 f24-sm fw-b">{{ page.type }}</p>
         </div>
-        {% endunless %}
         <h1 class="heading heading--s">
             {{ page.description }}
         </h1>
@@ -24,15 +22,4 @@ layout: default
     </div>
 </section>
 
-<hr>
-
-<section class="pa-6 pa-16-sm">
-    <h2 class="f16 f20-sm uppercase mb-4 mb-8-sm ls-4">Meer werk van Marloes</h2>
-    {% capture i %}{{ page.title }}{% endcapture %}
-    {% for entry in site.posts %}
-    {% if entry.title==i %}
-    {% continue %}
-    {% endif %}
-    {% include tile.html %}
-    {% endfor %}
-</section>
+{% include more.html %}
