@@ -3,12 +3,19 @@ layout: illustration
 title: Diverse illustraties
 type: Illustraties
 description: Diverse illustraties
+images:
+  - img: /assets/img/uploads/huub-van-der-lubbe.jpg
+    alt: Huub van der Lubbe
+  - img: /assets/img/uploads/lampionnen.jpg
+    alt: Lampionnen
+  - img: /assets/img/uploads/pino.jpg
+    alt: Pino
+  - img: /assets/img/uploads/roodborst-1.jpg
+    alt: Roodborst 1
+  - img: /assets/img/uploads/roodborst-2.jpg
+    alt: Roodborst 2
+  - img: /assets/img/uploads/panda-1.jpg
+    alt: Panda 1
+  - img: /assets/img/uploads/panda-2.jpg
+    alt: Panda 2
 ---
-
-![Huub van der Lubbe](/assets/img/uploads/huub-van-der-lubbe.jpg)
-![Lampionnen](/assets/img/uploads/lampionnen.jpg)
-![Pino](/assets/img/uploads/pino.jpg)
-![Pino](/assets/img/uploads/roodborst-1.jpg)
-![Pino](/assets/img/uploads/roodborst-2.jpg)
-![Pino](/assets/img/uploads/panda-1.jpg)
-![Pino](/assets/img/uploads/panda-2.jpg)

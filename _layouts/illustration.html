@@ -11,9 +11,14 @@ layout: default
             {{ page.description }}
         </h1>
     </header>
-    <div class="rich-text mxw-1000 mh-auto txt-c">
+    {% for entry in page.images %}
+    <figure class="image mxw-1000 mh-auto txt-c js-scroll js-tr tr-fi-up tr-1000">
+        <img data-src="{{ entry.img }}" alt="{{ entry.alt }}" />
+    </figure>
+    {% endfor %}
+    <div class="rich-text js-scroll-rt">
         {{ content }}
     </div>
 </section>
 
-{% include more.html %}
+{% include footer.html %}
