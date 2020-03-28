@@ -33,8 +33,10 @@
     const preloadImage = img => {
         const src = img.getAttribute('data-src');
         if (!src) return
-        img.src = src;
-        setTimeout(() => img.style.minHeight = 'auto', 10);
+        img.src = src
+        img.addEventListener('load', () => {
+            img.style.minHeight = 'auto';
+        });
     }
 
     const observeImage = new IntersectionObserver((entries, self) => {
@@ -45,7 +47,7 @@
             }
         });
     }, {
-        rootMargin: '320px 0px',
+        rootMargin: '512px 0px',
     });
 
     ß('[data-src]').map(el => observeImage.observe(el));
