@@ -34,9 +34,7 @@
         const src = img.getAttribute('data-src');
         if (!src) return
         img.src = src
-        img.addEventListener('load', () => {
-            img.style.minHeight = 'auto';
-        });
+        img.addEventListener('load', () => img.style.minHeight = 'auto');
     }
 
     const observeImage = new IntersectionObserver((entries, self) => {
