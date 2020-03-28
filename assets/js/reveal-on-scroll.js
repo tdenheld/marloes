@@ -35,7 +35,6 @@
         if (!src) return
         img.src = src;
         setTimeout(() => img.style.minHeight = 'auto', 10);
-        console.log(src);
     }
 
     const observeImage = new IntersectionObserver((entries, self) => {
