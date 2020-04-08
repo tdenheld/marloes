@@ -3,9 +3,8 @@ layout: illustration
 title: Diverse illustraties
 type: Illustraties
 description: Diverse illustraties
+img: /assets/img/uploads/lampionnen.jpg
 images:
-  - img: /assets/img/uploads/huub-van-der-lubbe.jpg
-    alt: Huub van der Lubbe
   - img: /assets/img/uploads/lampionnen.jpg
     alt: Lampionnen
   - img: /assets/img/uploads/pino.jpg
@@ -18,4 +17,6 @@ images:
     alt: Panda 1
   - img: /assets/img/uploads/panda-2.jpg
     alt: Panda 2
+  - img: /assets/img/uploads/huub-van-der-lubbe.jpg
+    alt: Huub van der Lubbe
 ---
