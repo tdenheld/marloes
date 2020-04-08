@@ -1,3 +1,11 @@
+.section {
+    padding: space(6);
+
+    @include respond-min($ml) {
+        padding: space(16);
+    }
+}
+
 .center {
     position: relative;
     @include center;
