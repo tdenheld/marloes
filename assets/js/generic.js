@@ -34,7 +34,6 @@ const toggle = () => {
 
 const scrollToObject = () => {
     const obj = '.js-scroll-to';
-    //const offset = document.querySelector('.header').offsetHeight + 24;
     if (!exists(obj)) return;
 
     ß(obj).map((el) => el.onclick = () => {
@@ -44,7 +43,6 @@ const scrollToObject = () => {
             ease: Power3.easeInOut,
             scrollTo: {
                 y: target,
-                offsetY: offset,
                 autoKill: false,
             }
         });
