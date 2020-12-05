@@ -45,7 +45,7 @@
             }
         });
     }, {
-        rootMargin: '512px 0px',
+        rootMargin: '1600px 0px',
     });
 
     ß('[data-src]').map(el => observeImage.observe(el));
